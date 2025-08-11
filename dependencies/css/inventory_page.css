@@ -1,0 +1,49 @@
+.user-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.user-icon {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    z-index: 1000;
+    min-width: 150px;
+    padding: 10px 0;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
+
+.username-display {
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 15px;
+    padding: 8px 15px;
+    background-color: #d1a451;
+    color: #333;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
