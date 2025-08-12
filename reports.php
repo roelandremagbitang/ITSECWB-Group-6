@@ -3,7 +3,7 @@ include 'dependencies/config.php';
 include 'dependencies/auth.php';
 
 require_login(); // user has to be logged in to access this page
-require_role(['owner', 'admin']); // only owner and admin has access to this page
+require_role(['owner', 'manager']); // only owner and manager has access to this page
 
 $email = $_SESSION['email']; 
 $query = "SELECT id, usertype FROM users WHERE email = ?";

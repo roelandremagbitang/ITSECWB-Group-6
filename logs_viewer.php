@@ -4,7 +4,7 @@ include 'dependencies/auth.php';
 include 'dependencies/logger.php';
 
 require_login(); // user has to be logged in to access this page
-require_role(['owner', 'admin']); // only owner and admin has access to this page
+require_role(['owner', 'manager']); // only owner and manager has access to this page
 
 // Initialize logger
 $logger = new SecurityLogger($conn);

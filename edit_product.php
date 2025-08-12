@@ -6,7 +6,7 @@ include 'dependencies/logger.php';
 include 'dependencies/validator.php';
 
 require_login(); // user has to be logged in to access this page
-require_role(['owner', 'admin', 'manager']); // only owner, admin, and manager has access to this page
+require_role(['owner', 'manager']); // only owner, and manager has access to this page
 
 // Initialize logger and validator
 $logger = new SecurityLogger($conn);

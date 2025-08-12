@@ -3,7 +3,7 @@ require_once 'dependencies/config.php';
 require_once 'dependencies/auth.php';
 
 require_login(); // user has to be logged in to access this page
-require_role(['owner', 'admin']); // only owner and admin has access to this page
+require_role(['owner', 'manager']); // only owner and manager has access to this page
 
 $accounts_query = "SELECT id, username, email, usertype FROM users WHERE usertype IN ('manager', 'customer')";
 $accounts_result = $conn->query($accounts_query);

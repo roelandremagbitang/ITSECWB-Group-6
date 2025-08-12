@@ -3,7 +3,7 @@ include 'dependencies/config.php';
 include 'dependencies/auth.php';
 
 require_login(); // user has to be logged in to access this page
-require_role(['owner', 'admin', 'customer']); // all account types has access to this page
+require_role(['owner', 'manager', 'customer']); // all account types has access to this page
 
 $sql = "SELECT o.id, p.product_name, o.quantity, o.total_amount, o.status, o.username, o.payment_method
         FROM orders o

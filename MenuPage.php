@@ -3,7 +3,7 @@ include 'dependencies/config.php';
 include 'dependencies/auth.php';
 
 require_login(); // user has to be logged in to access this page
-require_role(['owner', 'admin', 'manager']); // all has access to this page
+require_role(['owner', 'customer', 'manager']); // all has access to this page
 
 $email = $_SESSION['email']; 
 $query = "SELECT id, usertype, last_failed_login FROM users WHERE email = ?";

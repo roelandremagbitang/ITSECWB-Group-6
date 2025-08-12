@@ -6,7 +6,7 @@ include 'dependencies/logger.php';
 include 'dependencies/validator.php';
 
 require_login(); // user has to be logged in to access this page
-require_role(['owner', 'admin', 'manager']); // only owner, admin, and manager has access to this page
+require_role(['owner', 'manager']); // only owner and manager has access to this page
 
 // Initialize logger and validator
 $logger = new SecurityLogger($conn);
@@ -87,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         
         // Log validation failures
         $logger->logSecurityEvent('VALIDATION_FAILURE', $_SESSION['user_id'], $_SESSION['username'], 
-            "Product validation failed: " . implode(", ", $validation_errors), SecurityLogger::getClientIP(), false);
+            "Product validation failed: " . implode(", ", $validation_errors), false);
     }
 } else {
     $message = "Invalid request method. Please use the products page to add items.";
@@ -95,7 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     
     // Log invalid request method
     $logger->logSecurityEvent('INVALID_REQUEST', $_SESSION['user_id'], $_SESSION['username'], 
-        "Invalid request method: " . $_SERVER['REQUEST_METHOD'], SecurityLogger::getClientIP(), false);
+        "Invalid request method: " . $_SERVER['REQUEST_METHOD'], false);
 }
 
 $conn->close();

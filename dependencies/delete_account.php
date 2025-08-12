@@ -3,7 +3,7 @@ include 'dependencies/config.php';
 include 'dependencies/auth.php';
 
 require_login(); // user has to be logged in to access this page
-require_role(['owner', 'admin', 'customer']); // both owner and admin has access to this page
+require_role(['owner', 'manager', 'customer']); // account owners have access to this page
 
 if (!isset($_SESSION['email'])) {
     echo "Not authorized.";
