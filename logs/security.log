@@ -1,0 +1,65 @@
+[2025-08-12 02:56:29] VALIDATION_FAILURE | User: System (ID: Unknown) | IP: ::1 | Success: No | Details: Validation failed for email: 'gale@yah' (Rule: valid email format)
+[2025-08-12 02:56:29] VALIDATION_FAILURE | User: System (ID: Unknown) | IP: ::1 | Success: No | Details: Validation failed for password: '***' (Rule: complexity requirements)
+[2025-08-12 02:56:29] VALIDATION_FAILURE | User: System (ID: Unknown) | IP: ::1 | Success: No | Details: Signup validation failed: Invalid email format, Invalid email format, Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character
+[2025-08-12 02:56:38] VALIDATION_FAILURE | User: System (ID: Unknown) | IP: ::1 | Success: No | Details: Validation failed for password: '***' (Rule: complexity requirements)
+[2025-08-12 02:56:38] VALIDATION_FAILURE | User: System (ID: Unknown) | IP: ::1 | Success: No | Details: Signup validation failed: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character
+[2025-08-12 02:56:58] VALIDATION_FAILURE | User: System (ID: Unknown) | IP: ::1 | Success: No | Details: Validation failed for password: '***' (Rule: complexity requirements)
+[2025-08-12 02:56:58] VALIDATION_FAILURE | User: System (ID: Unknown) | IP: ::1 | Success: No | Details: Signup validation failed: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character
+[2025-08-12 02:57:42] VALIDATION_FAILURE | User: System (ID: Unknown) | IP: ::1 | Success: No | Details: Validation failed for password: '***' (Rule: complexity requirements)
+[2025-08-12 02:57:42] VALIDATION_FAILURE | User: System (ID: Unknown) | IP: ::1 | Success: No | Details: Signup validation failed: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character
+[2025-08-12 03:01:00] VALIDATION_FAILURE | User: System (ID: Unknown) | IP: ::1 | Success: No | Details: Validation failed for password: '***' (Rule: maximum length 128)
+[2025-08-12 03:01:00] VALIDATION_FAILURE | User: System (ID: Unknown) | IP: ::1 | Success: No | Details: Signup validation failed: Password is too long
+[2025-08-12 03:02:00] VALIDATION_FAILURE | User: System (ID: Unknown) | IP: ::1 | Success: No | Details: Validation failed for password: '***' (Rule: complexity requirements)
+[2025-08-12 03:02:00] VALIDATION_FAILURE | User: System (ID: Unknown) | IP: ::1 | Success: No | Details: Signup validation failed: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character
+[2025-08-12 03:09:48] USER_REGISTERED | User: System (ID: Unknown) | IP: ::1 | Success: Yes | Details: New user registered: gale (gale@yahoo.com)
+[2025-08-12 03:11:09] USER_REGISTERED | User: System (ID: Unknown) | IP: ::1 | Success: Yes | Details: New user registered: gale (gale@yahoo.com)
+[2025-08-12 03:12:12] USER_REGISTERED | User: System (ID: Unknown) | IP: ::1 | Success: Yes | Details: New user registered: ren (renamamiya@dlsu.edu.ph)
+[2025-08-12 03:12:18] LOGIN_SUCCESS | User: ren (ID: 5) | IP: ::1 | Success: Yes | Details: Login successful
+[2025-08-12 21:38:44] USER_REGISTERED | User: System (ID: Unknown) | IP: ::1 | Success: Yes | Details: New user registered: amiel (amiel_paguia@dlsu.edu.ph)
+[2025-08-12 21:39:15] LOGIN_FAILURE | User: Unknown (ID: Unknown) | IP: ::1 | Success: No | Details: Failed attempt 1 of 5
+[2025-08-12 21:39:19] LOGIN_FAILURE | User: Unknown (ID: Unknown) | IP: ::1 | Success: No | Details: Failed attempt 2 of 5
+[2025-08-12 21:39:43] LOGIN_SUCCESS | User: amiel (ID: 6) | IP: ::1 | Success: Yes | Details: Login successful
+[2025-08-12 21:42:02] PAGE_ACCESS | User: amiel (ID: 6) | IP: ::1 | Success: Yes | Details: Accessed order_products.php page
+[2025-08-12 21:43:52] PAGE_ACCESS | User: amiel (ID: 6) | IP: ::1 | Success: Yes | Details: Accessed order_products.php page
+[2025-08-12 21:45:35] PAGE_ACCESS | User: amiel (ID: 6) | IP: ::1 | Success: Yes | Details: Accessed order_products.php page
+[2025-08-12 21:45:36] PAGE_ACCESS | User: amiel (ID: 6) | IP: ::1 | Success: Yes | Details: Accessed order_products.php page
+[2025-08-12 21:45:42] PAGE_ACCESS | User: amiel (ID: 6) | IP: ::1 | Success: Yes | Details: Accessed order_products.php page
+[2025-08-12 21:46:11] PAGE_ACCESS | User: amiel (ID: 6) | IP: ::1 | Success: Yes | Details: Accessed order_products.php page
+[2025-08-12 21:46:57] ORDER_PLACED | User: amiel (ID: 6) | IP: ::1 | Success: Yes | Details: Order placed successfully: Customer: amiel, Product: Electric Guitar, Quantity: 1, Amount: 500.00, Payment: Cash
+[2025-08-12 21:56:29] ACCESS_DENIED | User: amiel (ID: 6) | IP: ::1 | Success: No | Details: Access denied to resource: /ITSECWB-Group-6-main/MenuPage.php
+[2025-08-12 21:56:33] ACCESS_DENIED | User: amiel (ID: 6) | IP: ::1 | Success: No | Details: Access denied to resource: /ITSECWB-Group-6-main/MenuPage.php
+[2025-08-12 21:56:36] ACCESS_DENIED | User: amiel (ID: 6) | IP: ::1 | Success: No | Details: Access denied to resource: /ITSECWB-Group-6-main/MenuPage.php
+[2025-08-12 23:08:53] LOGIN_SUCCESS | User: dylan (ID: 7) | Success: Yes | Details: Login successful
+[2025-08-12 23:08:56] ACCESS_DENIED | User: dylan (ID: 7) | Success: No | Details: Access denied to resource: /MenuPage.php
+[2025-08-12 23:08:59] ACCESS_DENIED | User: dylan (ID: 7) | Success: No | Details: Access denied to resource: /MenuPage.php
+[2025-08-12 23:09:02] ACCESS_DENIED | User: dylan (ID: 7) | Success: No | Details: Access denied to resource: /MenuPage.php
+[2025-08-12 23:09:50] USER_LOGOUT | User: dylan (ID: 7) | Success: Yes | Details: User logged out successfully
+[2025-08-12 23:09:57] LOGIN_FAILURE | User: Unknown (ID: Unknown) | Success: No | Details: Failed attempt 1 of 5
+[2025-08-12 23:10:34] VALIDATION_FAILURE | User: System (ID: Unknown) | Success: No | Details: Password confirmation mismatch
+[2025-08-12 23:11:01] VALIDATION_FAILURE | User: System (ID: Unknown) | Success: No | Details: Password confirmation mismatch
+[2025-08-12 23:13:54] VALIDATION_FAILURE | User: System (ID: Unknown) | Success: No | Details: Password confirmation mismatch
+[2025-08-12 23:15:16] LOGIN_SUCCESS | User: dylan (ID: 7) | Success: Yes | Details: Login successful
+[2025-08-12 23:15:28] USER_LOGOUT | User: dylan (ID: 7) | Success: Yes | Details: User logged out successfully
+[2025-08-12 23:15:48] VALIDATION_FAILURE | User: System (ID: Unknown) | Success: No | Details: Password confirmation mismatch
+[2025-08-12 23:16:05] VALIDATION_FAILURE | User: Unknown (ID: Unknown) | Success: No | Details: Validation failed for password: '***' (Rule: minimum length 8)
+[2025-08-12 23:16:05] VALIDATION_FAILURE | User: System (ID: Unknown) | Success: No | Details: Password confirmation mismatch
+[2025-08-12 23:18:32] PASSWORD_CHANGE_FAILURE | User: dylan (ID: 7) | Success: No | Details: Password change attempted within 24 hours
+[2025-08-12 23:19:06] LOGIN_SUCCESS | User: dylan (ID: 7) | Success: Yes | Details: Login successful
+[2025-08-12 23:19:08] USER_LOGOUT | User: dylan (ID: 7) | Success: Yes | Details: User logged out successfully
+[2025-08-12 23:20:39] USER_REGISTERED | User: System (ID: Unknown) | Success: Yes | Details: New user registered: test (test@gmail.com)
+[2025-08-12 23:20:58] LOGIN_FAILURE | User: Unknown (ID: Unknown) | Success: No | Details: User not found
+[2025-08-12 23:21:20] LOGIN_SUCCESS | User: test (ID: 8) | Success: Yes | Details: Login successful
+[2025-08-12 23:21:28] ACCESS_DENIED | User: test (ID: 8) | Success: No | Details: Access denied to resource: /MenuPage.php
+[2025-08-12 23:21:38] ACCESS_DENIED | User: test (ID: 8) | Success: No | Details: Access denied to resource: /MenuPage.php
+[2025-08-12 23:22:00] ACCESS_DENIED | User: test (ID: 8) | Success: No | Details: Access denied to resource: /reports.php
+[2025-08-12 23:22:13] ACCESS_DENIED | User: test (ID: 8) | Success: No | Details: Access denied to resource: /MenuPage.php
+[2025-08-12 23:22:21] ACCESS_DENIED | User: test (ID: 8) | Success: No | Details: Access denied to resource: /reports.php
+[2025-08-12 23:22:24] USER_LOGOUT | User: test (ID: 8) | Success: Yes | Details: User logged out successfully
+[2025-08-12 23:22:31] LOGIN_SUCCESS | User: dylan (ID: 7) | Success: Yes | Details: Login successful
+[2025-08-12 23:26:15] USER_LOGOUT | User: dylan (ID: 7) | Success: Yes | Details: User logged out successfully
+[2025-08-12 23:26:29] LOGIN_SUCCESS | User: manager (ID: 8) | Success: Yes | Details: Login successful
+[2025-08-12 23:26:29] LOGIN_FAILURE | User: Unknown (ID: Unknown) | Success: No | Details: Unauthorized user type: manager
+[2025-08-12 23:28:08] LOGIN_SUCCESS | User: manager (ID: 8) | Success: Yes | Details: Login successful
+[2025-08-12 23:28:08] ACCESS_DENIED | User: manager (ID: 8) | Success: No | Details: Access denied to resource: /MenuPage.php
+[2025-08-12 23:29:11] LOGIN_SUCCESS | User: manager (ID: 8) | Success: Yes | Details: Login successful
+[2025-08-12 23:29:20] ACCESS_DENIED | User: manager (ID: 8) | Success: No | Details: Access denied to resource: /ProductPage.php
