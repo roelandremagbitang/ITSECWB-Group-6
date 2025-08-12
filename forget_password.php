@@ -218,8 +218,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <i class="fas fa-question-circle"></i>
                 <select name="security_question" required>
                     <option value="" disabled selected>Select your security question</option>
-                    <option value="What is your favorite color?">What is your favorite color?</option>
+                    <option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
                     <option value="What was the name of your first pet?">What was the name of your first pet?</option>
+                    <option value="What is the name of the teacher who gave you your first failing grade?">What is the name of the teacher who gave you your first failing grade?</option>
+                    <option value="What was the first song you played after getting your first phone or music player?">What was the first song you played after getting your first phone or music player?</option>
                 </select>
             </div>
             <div class="row">
@@ -236,6 +238,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             <div class="row button">
                 <input type="submit" value="Reset Password">
+            </div>
+            <div class="row button">
+                <button type="button" onclick="window.location.href='login.php'" style="width:100%;padding:12px;border:none;border-radius:5px;background:#eee;color:#333;font-size:16px;cursor:pointer;transition:background 0.3s;">
+                    &larr; Go Back to Login
+                </button>
             </div>
         </form>
     </div>

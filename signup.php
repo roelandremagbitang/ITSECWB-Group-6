@@ -77,11 +77,10 @@ $validator = new SecurityValidator($logger);
                 <i class="fas fa-question-circle"></i>
                 <select name="security_question" required>
                     <option value="" disabled selected>Select your security question</option>
-                    <option value="What is your favorite color?">What is your favorite color?</option>
-                    <option value="What is your favorite movie?">What is your favorite movie?</option>
                     <option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
                     <option value="What was the name of your first pet?">What was the name of your first pet?</option>
-                    <option value="What was the name of your elementary school?">What was the name of your elementary school?</option>
+                    <option value="What is the name of the teacher who gave you your first failing grade?">What is the name of the teacher who gave you your first failing grade?</option>
+                    <option value="What was the first song you played after getting your first phone or music player?">What was the first song you played after getting your first phone or music player?</option>
                 </select>
             </div>
             <div class="row">
