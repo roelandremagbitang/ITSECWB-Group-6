@@ -62,7 +62,9 @@ $result = mysqli_query($conn, $sql);
 
 <div class="container">
     <div class="sidebar">
-        <a href="MenuPage.php" class="sidebar-item"><i class="fas fa-home"></i> Home</a>
+        <?php if ($_SESSION['user_role'] === 'owner' || $_SESSION['user_role'] === 'manager'): ?>
+            <a href="accounts_page.php" class="sidebar-item"><i class="fas fa-home"></i>Home</a>
+        <?php endif; ?>
         <a href="InventoryPage.php" class="sidebar-item"><i class="fas fa-boxes"></i> Inventory</a>
         <a href="ProductPage.php" class="sidebar-item active"><i class="fas fa-box"></i> Products</a>
         <a href="OrderPage.php" class="sidebar-item"><i class="fas fa-shopping-cart"></i>Orders</a>

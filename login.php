@@ -3,6 +3,8 @@ require_once "dependencies/config.php";
 require_once "dependencies/auth.php";
 require_once "dependencies/logger.php";
 
+redirect_if_logged_in(); // Redirect to MenuPage.php if already logged in
+
 // Initialize logger
 $logger = new SecurityLogger($conn);
 

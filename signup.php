@@ -4,7 +4,6 @@ require_once 'dependencies/auth.php';
 require_once 'dependencies/logger.php';
 require_once 'dependencies/validator.php';
 
-redirect_if_logged_in(); // go to MenuPage.php if logged in
 
 // Initialize logger and validator
 $logger = new SecurityLogger($conn);

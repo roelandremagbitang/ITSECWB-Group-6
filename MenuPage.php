@@ -105,7 +105,7 @@ $conn->close();
         <p>Email: <strong><?php echo htmlspecialchars($email); ?></strong></p><br>
         <p>User Type: <strong><?php echo htmlspecialchars($usertype); ?></strong></p><br>
         </div>
-        <a href="MenuPage.php" class="sidebar-item active"><i class="fas fa-home"></i> Home</a>
+        <a href="MenuPage.php" class="sidebar-item"><i class="fas fa-home"></i>Home</a>
         <a href="InventoryPage.php" class="sidebar-item"><i class="fas fa-boxes"></i> Inventory</a>
         <a href="ProductPage.php" class="sidebar-item"><i class="fas fa-box"></i> Products</a>
         <a href="OrderPage.php" class="sidebar-item"><i class="fas fa-shopping-cart"></i> Orders</a>

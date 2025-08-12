@@ -57,7 +57,6 @@ $stock_result = $conn->query($stock_sql);
     <div class="logo">La Frontera</div>
     <div class="search-nav">
         <a href="MenuPage.php" class="nav-item">Dashboard</a>
-        <a href="#" class="nav-item active">Sales & Transactions</a>
         <a href="reports.php" class="nav-item active">Reports</a>
     </div>
 
