@@ -63,3 +63,19 @@
 [2025-08-12 23:28:08] ACCESS_DENIED | User: manager (ID: 8) | Success: No | Details: Access denied to resource: /MenuPage.php
 [2025-08-12 23:29:11] LOGIN_SUCCESS | User: manager (ID: 8) | Success: Yes | Details: Login successful
 [2025-08-12 23:29:20] ACCESS_DENIED | User: manager (ID: 8) | Success: No | Details: Access denied to resource: /ProductPage.php
+[2025-08-12 23:39:00] LOGIN_SUCCESS | User: manager (ID: 8) | Success: Yes | Details: Login successful
+[2025-08-12 23:39:08] USER_LOGOUT | User: manager (ID: 8) | Success: Yes | Details: User logged out successfully
+[2025-08-12 23:39:16] LOGIN_SUCCESS | User: dylan (ID: 7) | Success: Yes | Details: Login successful
+[2025-08-12 23:39:53] USER_LOGOUT | User: dylan (ID: 7) | Success: Yes | Details: User logged out successfully
+[2025-08-12 23:40:01] LOGIN_SUCCESS | User: manager (ID: 8) | Success: Yes | Details: Login successful
+[2025-08-12 23:41:50] ORDER_COMPLETED | User: manager (ID: 8) | Success: Yes | Details: Order completed successfully: Order ID: 1, Customer: amiel, Product: Electric Guitar, Quantity: 1, Amount: 500
+[2025-08-12 23:42:41] USER_LOGOUT | User: manager (ID: 8) | Success: Yes | Details: User logged out successfully
+[2025-08-12 23:42:47] LOGIN_SUCCESS | User: dylan (ID: 7) | Success: Yes | Details: Login successful
+[2025-08-13 00:00:35] ACCOUNT_EDIT_TYPE | User: dylan (ID: 7) | Success: Yes | Details: ACCOUNT_EDIT_TYPE operation on account: manager (ID: 6)
+[2025-08-13 00:05:33] ACCOUNT_EDIT_TYPE | User: dylan (ID: 7) | Success: Yes | Details: ACCOUNT_EDIT_TYPE operation on account: customer (ID: 6)
+[2025-08-13 00:05:49] ACCOUNT_EDIT_TYPE | User: dylan (ID: 7) | Success: Yes | Details: ACCOUNT_EDIT_TYPE operation on account: manager (ID: 6)
+[2025-08-13 00:05:54] USER_LOGOUT | User: dylan (ID: 7) | Success: Yes | Details: User logged out successfully
+[2025-08-13 00:06:15] LOGIN_SUCCESS | User: manager (ID: 8) | Success: Yes | Details: Login successful
+[2025-08-13 00:07:48] USER_LOGOUT | User: manager (ID: 8) | Success: Yes | Details: User logged out successfully
+[2025-08-13 00:07:51] LOGIN_FAILURE | User: Unknown (ID: Unknown) | Success: No | Details: User not found
+[2025-08-13 00:07:53] LOGIN_FAILURE | User: Unknown (ID: Unknown) | Success: No | Details: Failed attempt 1 of 5

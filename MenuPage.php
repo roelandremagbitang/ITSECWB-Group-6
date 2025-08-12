@@ -110,8 +110,12 @@ $conn->close();
         <a href="ProductPage.php" class="sidebar-item"><i class="fas fa-box"></i> Products</a>
         <a href="OrderPage.php" class="sidebar-item"><i class="fas fa-shopping-cart"></i> Orders</a>
 
+        <?php if ($_SESSION['user_role'] === 'owner' || 'manager'): ?>
+            <a href="accounts_page.php" class="sidebar-item"><i class="fas fa-users-cog"></i>Accounts</a>
+        <?php endif; ?>
+
         <?php if ($_SESSION['user_role'] === 'owner'): ?>
-            <a href="accounts_page.php" class="sidebar-item"><i class="fas fa-users-cog"></i> Accounts</a>
+            <a href="logs_page.php" class="sidebar-item"><i class="fas fa-clipboard-list"></i>Logs</a>
         <?php endif; ?>
 
     </div>
