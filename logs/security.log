@@ -81,3 +81,15 @@
 [2025-08-13 00:07:53] LOGIN_FAILURE | User: Unknown (ID: Unknown) | Success: No | Details: Failed attempt 1 of 5
 [2025-08-13 00:30:35] USER_REGISTERED | User: System (ID: Unknown) | Success: Yes | Details: New user registered: test (test@gmail.com)
 [2025-08-13 00:31:03] LOGIN_SUCCESS | User: test (ID: 9) | Success: Yes | Details: Login successful
+[2025-08-13 00:35:49] PAGE_ACCESS | User: test (ID: 9) | Success: Yes | Details: Accessed order_products.php page
+[2025-08-13 00:36:18] ORDER_PLACED | User: test (ID: 9) | Success: Yes | Details: Order placed successfully: Customer: test, Product: Buldak, Quantity: 1, Amount: 80.00, Payment: Cash
+[2025-08-13 00:36:31] USER_LOGOUT | User: test (ID: 9) | Success: Yes | Details: User logged out successfully
+[2025-08-13 00:36:40] LOGIN_SUCCESS | User: manager (ID: 8) | Success: Yes | Details: Login successful
+[2025-08-13 00:36:45] ORDER_COMPLETED | User: manager (ID: 8) | Success: Yes | Details: Order completed successfully: Order ID: 2, Customer: test, Product: Buldak, Quantity: 1, Amount: 80
+[2025-08-13 00:36:49] USER_LOGOUT | User: manager (ID: 8) | Success: Yes | Details: User logged out successfully
+[2025-08-13 00:36:53] LOGIN_SUCCESS | User: test (ID: 9) | Success: Yes | Details: Login successful
+[2025-08-13 00:36:59] ACCESS_DENIED | User: test (ID: 9) | Success: No | Details: Access denied to resource: /reports.php
+[2025-08-13 00:37:34] ACCESS_DENIED | User: test (ID: 9) | Success: No | Details: Access denied to resource: /MenuPage.php
+[2025-08-13 00:37:35] ACCESS_DENIED | User: test (ID: 9) | Success: No | Details: Access denied to resource: /MenuPage.php
+[2025-08-13 00:37:39] ACCESS_DENIED | User: test (ID: 9) | Success: No | Details: Access denied to resource: /MenuPage.php
+[2025-08-13 00:37:43] ACCESS_DENIED | User: test (ID: 9) | Success: No | Details: Access denied to resource: /MenuPage.php
