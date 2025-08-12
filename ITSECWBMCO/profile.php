@@ -1,6 +1,6 @@
 <?php
-session_start();
 require "dependencies/config.php";
+include 'dependencies/auth.php';
 
 if (!isset($_SESSION['email'])) {
     header("Location: login.php");

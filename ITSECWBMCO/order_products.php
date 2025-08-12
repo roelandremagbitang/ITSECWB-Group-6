@@ -1,6 +1,6 @@
 <?php
-session_start();
 include 'dependencies/config.php';
+include 'dependencies/auth.php';
 
 // Fetch products from inventory
 $products = [];

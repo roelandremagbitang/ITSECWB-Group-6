@@ -1,6 +1,6 @@
 <?php
-session_start();
 include 'dependencies/config.php';
+include 'dependencies/auth.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Sanitize and normalize inputs
