@@ -113,3 +113,8 @@
 [2025-08-13 00:53:56] USER_LOGOUT | User: dylan (ID: 7) | Success: Yes | Details: User logged out successfully
 [2025-08-13 00:54:01] LOGIN_SUCCESS | User: test (ID: 9) | Success: Yes | Details: Login successful
 [2025-08-13 00:54:03] ACCESS_DENIED | User: test (ID: 9) | Success: No | Details: Access denied to resource: /reports.php
+[2025-08-13 00:57:09] USER_LOGOUT | User: test (ID: 9) | Success: Yes | Details: User logged out successfully
+[2025-08-13 00:57:14] LOGIN_SUCCESS | User: dylan (ID: 7) | Success: Yes | Details: Login successful
+[2025-08-13 00:59:15] USER_LOGOUT | User: dylan (ID: 7) | Success: Yes | Details: User logged out successfully
+[2025-08-13 09:19:52] LOGIN_SUCCESS | User: dylan (ID: 7) | Success: Yes | Details: Login successful
+[2025-08-13 09:20:08] ACCOUNT_DELETION | User: dylan (ID: 7) | Success: Yes | Details: ACCOUNT_DELETION operation on account: test (ID: 9)

@@ -1,6 +1,5 @@
 <?php
-session_start();
-include 'dependencies/config.php';
+require_once 'dependencies/config.php';
 
 if (!isset($_SESSION['email'])) {
     die("User not logged in.");
